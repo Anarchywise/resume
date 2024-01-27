@@ -1,8 +1,6 @@
 % !TEX program = xelatex
 
 \documentclass{resume}
-%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
-%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
 
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
@@ -17,33 +15,23 @@
 \section{\faGraduationCap\ 教育经历}
 \datedsubsection{\textbf{四川大学(SCU)}}{2021 -- 至今}
 \textit{在读本科生} 软件工程, 预计2025年6月毕业
-\datedsubsection{\textbf{成绩)}}{86 前40%}
+\datedsubsection{\textbf{成绩}}{86 前40\%}
 
 \section{\faUsers\ 项目经历}
 
-\datedsubsection{\textbf{星途指南一一基于 AI 的智慧出行软件}}{12. 2023 -- 至今}
-\role{Java,Python}{团队项目, 担任后台开发}
-使用SpringBoot,SpringSecurity进行开发,为前端提供各种接口
 \begin{itemize}
-  \item 提供登录,注册等基本接口
-  \item 提供旅游行程安排等接口
-  \item 提供博客功能
+  \item \role{Java,Python}{团队项目, 担任后台开发}
+        \begin{itemize}
+            \item 提供登录,注册等基本接口
+            \item 提供旅游行程安排等接口
+            \item 提供博客功能
+        \end{itemize}
+  \item \role{Java}{团队项目, 担任全栈开发}
+        \begin{itemize}
+            \item 使用Android Studio原生功能开发App
+            \item 提供音频下载接口
+        \end{itemize}
 \end{itemize}
-
-\datedsubsection{\textbf{听·见——用声音看到艺术}}{11. 2022 -- 2023.6}
-\role{Java}{团队项目, 担任全栈开发}
-一个为视障儿童提供的用听觉感受艺术的安卓APP
-\begin{itemize}
-  \item 使用Android Studio原生功能开发App
-  \item 提供音频下载接口
-\end{itemize}
-
-% Reference Test
-%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
-%An xxx optimized for xxx\cite{verma2015large}
-%\begin{itemize}
-%  \item main contribution
-%\end{itemize}
 
 \section{\faCogs\ IT 技能}
 \begin{itemize}[parsep=0.5ex]
@@ -59,12 +47,11 @@
 
 \section{\faUsers\ 实训项目}
 \begin{itemize}[parsep=0.5ex]
-  \item 实训项目: 个人项目
-  使用QT,C++开发{飞机大战}小游戏,提供关卡,Boss,特殊技能等特色
-  \item 实训项目: 团队项目
-  担任: 项目经理
-  使用Sevlet,Mysql等基础技术开发{在线考试系统},提供身份验证等功能
-  \item 
+  \item 实训项目: 个人项目 \\
+  使用QT, C++开发\{飞机大战\}小游戏，提供关卡，Boss，特殊技能等特色
+  \item 实训项目: 团队项目 \\
+  担任: 项目经理 \\
+  使用Sevlet, Mysql等基础技术开发\{在线考试系统\}，提供身份验证等功能
 \end{itemize}
 
 \section{\faInfo\ 其他}
@@ -73,8 +60,4 @@
   \item 性格开朗,善于交流
 \end{itemize}
 
-%% Reference
-%\newpage
-%\bibliographystyle{IEEETran}
-%\bibliography{mycite}
 \end{document}
